@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ${{ values.name | dump }}
+  name: s3 catalog
   annotations:
     github.com/project-slug: sagar0419/aws-ec2 # Change the value to your github repo which contains terraform code.
     backstage.io/techdocs-ref: dir:.
