@@ -9,5 +9,5 @@ metadata:
   description: S3 Bucket Creation Catalog for testing. # Change Description accordingly
 spec:
   type: service
-  owner: user:guest
+  owner: user:gangabadiger
   lifecycle: experimental
