@@ -83,9 +83,9 @@ spec:
       name: Starting GitHub action
       action: github:actions:dispatch
       input:
-        workflowId:  instance.yml # ID of GitHub action WorkFlow
+        workflowId:  terraform.yml  # ID of GitHub action WorkFlow
         repoUrl: 'github.com?repo=s3-backstage&owner=codemonk14'
-        branchOrTagName: 'master'
+        branchOrTagName: 'main'
         workflowInputs:
           instanceName: ${{ parameters.InstanceName }}
           awsRegion: ${{ parameters.Region }}
